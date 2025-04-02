@@ -1,9 +1,5 @@
-const Errormessage = (props) => {
-    return (
-        <>
-            {props.length === 0 && <h1>I am still hungry.</h1>}
-        </>
-    )
-}
-
-export default Errormessage;
+const ErrorMessage = ({ items }) => {
+    return <>{items.length === 0 && <h3>I am still hungry.</h3>}</>;
+  };
+  
+  export default ErrorMessage;

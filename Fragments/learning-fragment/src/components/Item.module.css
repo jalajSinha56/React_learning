@@ -1,16 +1,12 @@
-.kg-item{
-    list-style-type: none;
-    border: 1px solid rgb(214, 208, 208);
-    border-radius: 5px;
-    padding: 5px;
-}
-.kg-span {
-    font-weight: 200;
-    color: red;
-    font-weight: bold;
-}
-.button{
-    color: rgb(0, 7, 7);
-    background-color: aqua;
+.kg-item {
+    background-color: khaki;
+  }
+  
+  .kg-span {
+    font-weight: 500;
+    color: orangered;
+  }
+  
+  .button {
     float: right;
-}
+  }
